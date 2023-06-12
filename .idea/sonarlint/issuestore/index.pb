@@ -1,0 +1,5 @@
+
+z
+J.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_3_0_2.xml,2\7\27c7193598cab88fd8e472c45992193899a3c50f
+‚
+R.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_8_0_0_Final.xml,a\e\aeec8e83c60d3c16dfe690280a858bc6c021a91b

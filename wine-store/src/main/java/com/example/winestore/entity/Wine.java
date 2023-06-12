@@ -5,14 +5,24 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.HashSet;
+import java.util.Set;
+
+
 @Entity
 @Table(name = "wines")
 @Getter
 @Setter
 @NoArgsConstructor
+
 public class Wine {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+//    @ManyToMany(mappedBy = "wines")
+//    private Set<Order> orders = new HashSet<>();
+
+
     private Long id;
     private String name;
     private int age;
